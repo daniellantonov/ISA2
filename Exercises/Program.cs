@@ -6,7 +6,7 @@ namespace Exercises
     {
         public static void Main(string[] args)
         {
-            /*
+            Console.WriteLine("hello");
             Console.WriteLine("Name trick");
             NameTrick();
             Console.WriteLine("Age trick");
@@ -16,9 +16,8 @@ namespace Exercises
             Console.WriteLine("String Manipulation");
             StringManipulation("    Hey i am Daniel here are few unused spaces and lots of a   ");
             Console.WriteLine("Second ex");
-            */           
             Birthday birthday = new Birthday();
-            birthday.DoingMMM();
+            birthday.ExecutingExercise();
             Console.ReadLine();
         }
 
@@ -43,7 +42,7 @@ namespace Exercises
             int squareSize = Convert.ToInt32(Console.ReadLine());
             for (int i = 0; i < squareSize; i++)
             {
-                for (int j = 0; j < squareSize; j++)
+                for (int j = 1; j < squareSize; j++)
                 {
                     Console.Write("x");
                 }
