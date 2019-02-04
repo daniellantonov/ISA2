@@ -8,7 +8,8 @@ namespace Test
         {
             Console.WriteLine("Hello World!");
             string volodja = "volodja";
-            Console.WriteLine(volodja);
+            string ilja = "ilja";
+            Console.WriteLine(volodja+ilja);
             Console.ReadLine();
         }
     }
