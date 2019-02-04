@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises", "Exercises\Exer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{382FFAF1-5C1E-4298-AE9B-053AF025EC94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCodeLibrary", "MyCodeLibrary\MyCodeLibrary.csproj", "{7398A563-2DBC-44D0-8092-8EC2836EE574}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,5 +21,9 @@ Global
 		{382FFAF1-5C1E-4298-AE9B-053AF025EC94}.Debug|x86.Build.0 = Debug|x86
 		{382FFAF1-5C1E-4298-AE9B-053AF025EC94}.Release|x86.ActiveCfg = Release|x86
 		{382FFAF1-5C1E-4298-AE9B-053AF025EC94}.Release|x86.Build.0 = Release|x86
+		{7398A563-2DBC-44D0-8092-8EC2836EE574}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7398A563-2DBC-44D0-8092-8EC2836EE574}.Debug|x86.Build.0 = Debug|Any CPU
+		{7398A563-2DBC-44D0-8092-8EC2836EE574}.Release|x86.ActiveCfg = Release|Any CPU
+		{7398A563-2DBC-44D0-8092-8EC2836EE574}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
