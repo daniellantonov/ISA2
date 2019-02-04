@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCodeLibrary", "MyCodeLibrary\MyCodeLibrary.csproj", "{7398A563-2DBC-44D0-8092-8EC2836EE574}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{C9FC4A94-A3EA-4346-BCF5-08FF4FE9A382}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -25,5 +27,9 @@ Global
 		{7398A563-2DBC-44D0-8092-8EC2836EE574}.Debug|x86.Build.0 = Debug|Any CPU
 		{7398A563-2DBC-44D0-8092-8EC2836EE574}.Release|x86.ActiveCfg = Release|Any CPU
 		{7398A563-2DBC-44D0-8092-8EC2836EE574}.Release|x86.Build.0 = Release|Any CPU
+		{C9FC4A94-A3EA-4346-BCF5-08FF4FE9A382}.Debug|x86.ActiveCfg = Debug|x86
+		{C9FC4A94-A3EA-4346-BCF5-08FF4FE9A382}.Debug|x86.Build.0 = Debug|x86
+		{C9FC4A94-A3EA-4346-BCF5-08FF4FE9A382}.Release|x86.ActiveCfg = Release|x86
+		{C9FC4A94-A3EA-4346-BCF5-08FF4FE9A382}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
