@@ -11,6 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{B2C94361-913A-4AAF-9027-8919BC038E6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumAndSwitch", "EnumAndSwitch\EnumAndSwitch.csproj", "{61B65C1C-E846-41B6-A8B1-F690A28EFEFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E746CB64-FD69-40F6-A809-12C38D499353}"
+	ProjectSection(SolutionItems) = preProject
+		Code\lesson3.html = Code\lesson3.html
+		Code\style.css = Code\style.css
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -37,5 +45,9 @@ Global
 		{B2C94361-913A-4AAF-9027-8919BC038E6B}.Debug|x86.Build.0 = Debug|x86
 		{B2C94361-913A-4AAF-9027-8919BC038E6B}.Release|x86.ActiveCfg = Release|x86
 		{B2C94361-913A-4AAF-9027-8919BC038E6B}.Release|x86.Build.0 = Release|x86
+		{61B65C1C-E846-41B6-A8B1-F690A28EFEFE}.Debug|x86.ActiveCfg = Debug|x86
+		{61B65C1C-E846-41B6-A8B1-F690A28EFEFE}.Debug|x86.Build.0 = Debug|x86
+		{61B65C1C-E846-41B6-A8B1-F690A28EFEFE}.Release|x86.ActiveCfg = Release|x86
+		{61B65C1C-E846-41B6-A8B1-F690A28EFEFE}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
