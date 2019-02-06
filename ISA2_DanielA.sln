@@ -13,10 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumAndSwitch", "EnumAndSwitch\EnumAndSwitch.csproj", "{61B65C1C-E846-41B6-A8B1-F690A28EFEFE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E746CB64-FD69-40F6-A809-12C38D499353}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML and CSS", "HTML and CSS", "{FEDA571A-B0D5-48DB-A50B-0D65483E27DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 3", "Lesson 3", "{50AEC4A7-BB81-4297-8C3B-E35109F00659}"
 	ProjectSection(SolutionItems) = preProject
 		Code\lesson3.html = Code\lesson3.html
-		Code\style.css = Code\style.css
 	EndProjectSection
 EndProject
 Global
@@ -49,5 +50,8 @@ Global
 		{61B65C1C-E846-41B6-A8B1-F690A28EFEFE}.Debug|x86.Build.0 = Debug|x86
 		{61B65C1C-E846-41B6-A8B1-F690A28EFEFE}.Release|x86.ActiveCfg = Release|x86
 		{61B65C1C-E846-41B6-A8B1-F690A28EFEFE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50AEC4A7-BB81-4297-8C3B-E35109F00659} = {FEDA571A-B0D5-48DB-A50B-0D65483E27DC}
 	EndGlobalSection
 EndGlobal

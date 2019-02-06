@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lesson 11 - Form Validation and other Future HTML5 Form Enhancements</title>
+  <style type="text/css" media="all">
+    span {
+      width: 175px;
+      display:block;
+      float:left;
+    }
+    input {
+      float:left;
+    }
+    p {
+      padding-top:10px;
+      clear: all;
+    }
+    h2 {
+      padding-top:20px;
+      clear: all;
+    }
+    label {
+      padding-right:20px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Creating Forms</h1>
+
+<form method="POST" action="form.aspx">
+
+<h2>Email</h2>
+<p><label><span>Email Input: </span><input type=email name=emailInput required></label></p>
+
+<h2>Telephone</h2>
+<p><label><span>Telephone Input: </span><input type=tel name=telInput required></label>Oddly, the spec says the browser should do nothing special.  Hmm...</p>
+
+<h2>URL</h2>
+<p><label><span>URL Input: </span><input type=url name=urlInput required></label></p>
+
+<h2>Numeric Values</h2>
+
+<p><label><span>Number Input: </span><input type=number name=numberInput required></label></p>
+
+<p><label><span>Range Input: </span><input type=range name=rangeInput required value=42></label>Value set to 42.  By default, values between 0 and 100</p>
+
+<h2>Data List</h2>
+<p><label><span>Data List: </span>
+<input type=text list=someList>
+<datalist id=someList>
+  <option label=First value="First">
+  <option label=Second value="Second">
+  <option label=Third value="Third">
+</datalist>
+</label></p>
+
+<h2>Attributes</h2>
+
+<p><label><span>autofocus: </span><input type=text autofocus></label></p>
+<p><label><span>pattern: </span><input type=text pattern="^\d{5}(-\d{4})?$"></label>Hint: Use a valid/invalid zip code</p>
+<p><label><span>placeholder: </span><input type=text placeholder="Hello World"></label></p>
+<p><label><span>required: </span><input type=text required></label></p>
+<p><label><span>step: </span><input type=number step=5></label>Hint: Must be divisible by 5</p>
+
+<p><button>Submit</button></p>
+
+</form>
+
+</body>
+</html>
