@@ -48,6 +48,24 @@
 
         <h2>Numeric Values</h2>
         <p><label><span>Number Input: </span><input type=number name=numberInput required></label></p>
+
+        <h2>Range Input</h2>
+        <p><label><span>Range Input: </span><input type=range name=rangeInput required value=42>Value set to 42.</label></p>
+
+        <h2>Data List</h2>
+        <p><label><span>Data List: </span><input type=text list=somelist><datalist id=someList>
+          <option label=First value="First">
+          <option label=Second value="Second">
+          <option label=Third value="Third">
+        </datalist></label></p>
+
+        <h2>Attributes</h2>
+        <p><label><span>autofocus: </span><input tyoe=text autofocus></label></p>
+        <p><label><span>pattern: </span><input type=text pattern="^\d{5}(-\d{4})?$"></label>Hint: use a valid/invalid zip code</p>
+        <p><label><span>placeholder: </span><input type=text placeholder="Hello World"></label></p>
+        <p><label><span>required: </span><input type=text required></label></p>
+        <p><label><span>step: </span><input type=number step=5></label>Hint number must be divisible by 5</p>
+
         <p><button>Submit</button></p>
 
     </form>
