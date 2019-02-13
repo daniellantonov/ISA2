@@ -14,7 +14,7 @@ console.log(++a);
 
 var m = 10 % 3;
 console.log(m);
-*/
 
 var b = (1 + 2) * 3;
 console.log(b);
+*/
