@@ -24,9 +24,31 @@ switch (hero.toLocaleLowerCase()) {
     default:
         console.log('member og JLA');
 }
-*/
+
 
 let a = 1,
     b = '1';
 let result = (a === b) ? 'equal' : 'ineuqal';
 console.log(result);
+
+*/
+
+var number = 50;
+if (number == 50) {
+    console.log('The number is ' + number);
+} else {
+    console.log('The number is:' + number);
+}
+
+let firstName = 'Daniel';
+switch (firstName) {
+    case 'Daniel':
+        console.log(firstName + ' Antonov');
+        break;
+    default:
+        console.log(firstName + ' Second name');
+}
+
+let myNumber = 20;
+let guess = (20 === myNumber) ? 'You are right!' : 'No your name is incorrect!';
+console.log(guess);
