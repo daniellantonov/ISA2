@@ -26,8 +26,10 @@
     <OutputPath>bin\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile></DocumentationFile>
     <ExternalConsole>true</ExternalConsole>
     <PlatformTarget>x86</PlatformTarget>
+    <WarningsNotAsErrors></WarningsNotAsErrors>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

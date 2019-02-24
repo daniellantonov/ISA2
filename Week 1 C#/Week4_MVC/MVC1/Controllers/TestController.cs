@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+
+// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+namespace MVC1.Controllers
+{
+    public class TestController : Controller
+    {
+        // GET: /<controller>/
+        public string GetString()
+        {
+            return "Hello World";
+        }
+
+        public ActionResult GetView()
+        {
+            return View("MyView");
+        }
+    }
+}
